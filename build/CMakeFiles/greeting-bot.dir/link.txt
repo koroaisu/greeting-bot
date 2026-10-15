@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\greeting-bot.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\greeting-bot.dir/objects.a @CMakeFiles\greeting-bot.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe -Wl,--whole-archive CMakeFiles\greeting-bot.dir/objects.a -Wl,--no-whole-archive -o greeting-bot.exe -Wl,--out-implib,libgreeting-bot.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\greeting-bot.dir\linkLibs.rsp
